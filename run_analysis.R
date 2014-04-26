@@ -142,4 +142,4 @@ oldnames <- names(mergedData)
         names(tidyData)[3:81] <- sub("Mean", "Mean of Mean", names(mergedData)[3:81])
         names(tidyData)[3:81] <- sub("Standard Deviation", "Mean of Standard Deviation", names(mergedData)[3:81])
         #write the tidy table to the working directory
-        write.table(tidyData, "./tidysamsungfitdata.csv", append=FALSE, sep=",")
+        write.table(tidyData, "./tidysamsungfitdata.txt", append=FALSE, sep=",")
